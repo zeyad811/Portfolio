@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="portfolio-2.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<header class="navbar">
+  <div class="logo" data-key="logo">Zeyad Ayman</div>
+
+  <nav class="nav-links">
+    <a href="#home" class="active" data-key="nav-home">Home</a>
+    <a href="#about" data-key="nav-about">About</a>
+    <a href="#skills" data-key="nav-skills">Skills</a>
+    <a href="#projects" data-key="nav-projects">Projects</a>
+    <a href="#contact" data-key="nav-contact">Contact</a>
+  </nav>
+
+  <div class="nav-actions">
+    <button class="lang-btn">EN</button>
+    <button class="mode-btn">🌙</button>
+  </div>
+</header>
+
+
+
+<!-- 1- Hero -->
+<section id="home" class="hero">
+  <div class="hero-text">
+    <h1 data-key="hero-h1" class="iam">Hi, Iam</h1>
+    <h1 data-key="heroName" class="name">Zeyad Ayman</h1>
+    <h2 data-key="heroJob">Front-End Developer</h2>
+    <p data-key="hero-p" class="hero-p">
+      I specialize in building modern, responsive, and user-friendly websites
+      with clean design and organized code.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="Your-CV.pdf" class="btn primary" data-key="button-cv">Download CV</a>
+      <a href="#contact" class="btn secondary" data-key="button-contact">Contact Me</a>
+      <div class="social-icons">
+        <a href="https://wa.me/201500000000" target="_blank">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="https://linkedin.com/in/username" target="_blank">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/your-username" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>  
+    </div>
+  </div>
+
+  <div class="hero-image">
+    <img src="Person-image.png" alt="Zeyad" />
+  </div>
+</section>
+
+
+
+<!-- 2- About -->
+<section id="about" class="about">
+  <h2 data-key="aboutTitle">About Me</h2>
+  <p data-key="about-P">
+    I am a front-end developer passionate about creating professional and visually
+    appealing websites. I focus on writing clean, maintainable code and building
+    responsive layouts that work perfectly on all devices.
+  </p>
+  <p data-key="about-P">
+    My goal is to help clients transform their ideas into real, functional websites
+    that represent their brand and deliver a great user experience.
+  </p>
+</section>
+
+
+
+<!-- 3- Skills -->
+<section id="skills" class="skills">
+  <h2 data-key="skillsTitle">Skills</h2>
+
+  <div class="skills-grid">
+    <div class="skill-card">
+      <h3>HTML & CSS</h3>
+      <p data-key="skill1-P">
+        Strong knowledge of semantic HTML and modern CSS techniques such as Flexbox
+        and Grid to build clean, structured, and scalable layouts.
+      </p>
+    </div>
+
+    <div class="skill-card">
+      <h3 data-key="skill2-h">Responsive Design</h3>
+      <p data-key="skill2-P">
+        Creating layouts that adapt smoothly to all screen sizes including desktops,
+        tablets, and mobile devices.
+      </p>
+    </div>
+
+    <div class="skill-card">
+      <h3 data-key="skill3-h">Landing Pages</h3>
+      <p data-key="skill3-P">
+        Designing effective landing pages focused on clarity, readability, and
+        conversion to help promote products and services.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- 4- Projects -->
+<section id="projects" class="projects">
+  <h2 data-key="projectsTitle">Projects</h2>
+
+  <div class="projects-grid">
+    <div class="project-card">
+      <h3 data-key="project1-h">Portfolio Website</h3>
+      <p data-key="project1-p">
+        A personal portfolio website built using HTML,JavaScript and CSS showcasing skills,
+        projects, and contact information.
+      </p>
+      <a href="https://yourprojectlink.com" target="_blank" class="project-link" data-key="viewproject">View Project </a>
+    </div>
+
+    <div class="project-card">
+      <h3 data-key="project2-h">Landing Page</h3>
+      <p data-key="project2-p">
+        A marketing landing page with a clean layout and responsive design optimized
+        for user engagement.
+      </p>
+      <a href="https://yourprojectlink.com" target="_blank" class="project-link" data-key="viewproject">View Project</a>
+    </div>
+    
+
+    <div class="project-card">
+      <h3 data-key="project3-h">Business Website</h3>
+      <p data-key="project3-p">
+        A simple business website for a small company with a modern UI and clear
+        content structure.
+      </p>
+      <a href="https://yourprojectlink.com" target="_blank" class="project-link" data-key="viewproject">View Project</a>
+    </div>
+  </div>
+</section>
+
+<!-- 5- Contact -->
+<section id="contact" class="contact">
+  <h2 data-key="contactTitle">Contact</h2>
+
+  <div class="contact-wrapper">
+    <div class="contact-info">
+      <p>
+        <i class="fa-solid fa-envelope"></i>
+        user@gmail.com
+      </p>
+      <p>
+        <i class="fa-solid fa-phone"></i>
+        <span dir="ltr">015 000 000 00</span>
+      </p>
+    </div>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" data-key="contact-yourname"/>
+      <input type="email" placeholder="Your Email" data-key="contact-yourmail" />
+      <textarea placeholder="Your Message" data-key="contact-yourmessage"></textarea>
+      <button type="submit" data-key="contact-send">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<!-- 6- Footer -->
+<footer class="footer">
+  <div class="footer-social">
+    <a href="https://wa.me/201500000000" target="_blank">
+      <i class="fa-brands fa-whatsapp"></i></a>
+    <a href="https://linkedin.com/in/username" target="_blank">
+      <i class="fa-brands fa-linkedin-in"></i></a>
+    <a href="https://github.com/your-username" target="_blank">
+      <i class="fa-brands fa-github"></i></a>
+  </div>
+  <p data-key="footer">© 2026 Zeyad Ayman.All rights reserved.</p>
+</footer>
+
+
+
+ <!-- Back-to-top -->
+  <button id="backToTop">↑</button>
+
+<script src="portfolio-2.js"></script>
+</body>
+</html>
